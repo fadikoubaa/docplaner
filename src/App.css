@@ -1,0 +1,236 @@
+.div{
+  text-align: center;
+   font-size: 2.125rem;
+  color: #00b39b
+  }
+  .Header{
+      display: flex;
+      justify-content: space-around; 
+      position: fixed;
+      z-index: 100;
+      background-color: #ffffff;
+      width: 100%;
+  
+  }
+  .LogoDoc{
+      width: 268px;
+      height: 33px;
+  }
+  .navBar{
+      margin-left: -80px;
+      display: flex;
+      justify-content: space-between;
+      width: 400px;
+      padding-right: 31px;
+      zoom: 1;
+      max-width: 1015px;
+      padding: 0 20px;
+      margin: 0 auto;
+      list-style: none;
+      font-size: .9375rem;
+      line-height: 2em;
+      padding: 1.33em 0;}
+  
+      .navBar a {
+          text-decoration: none;
+          color : gray
+          
+      }
+      .subNavBar-show{
+          position: relative;
+      }
+  .subNavBar{
+      display: none;
+      list-style: none;
+      position: absolute;
+      width: 400px;
+      color: #ababab;
+      background-color: white;
+  
+  }
+  .subNavBar-show:hover .subNavBar{
+      display: block;
+  
+  }
+  
+  .subNavBar a {
+      text-decoration: none;
+      color: #ababab;
+  }
+   
+  h1{font-size: 30px;
+      color: #00b39b;
+     
+  }
+  .paragraphes{
+      display: flex;
+  }
+  .Intro{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+     margin-left: 150px;
+    margin-right: 150px;
+  }
+  p{color: #747474;
+      margin: .8em 0;
+      line-height: 1.75;
+      font-weight: 400;
+  }
+  /* section 3 */
+  .cards{
+      display: flex;
+      margin-left: 150px;
+      margin-right: 150px;
+      justify-content: space-between;
+      overflow: hidden;
+      color: white;
+  }
+  
+  
+  .patient-card{
+      width:45%;
+      background: #00b39b;
+      overflow: hidden;
+      position: relative;
+  }
+  .doctor-card{
+      width:45%;
+      background-color:#3d83df;
+  }
+  .select{
+      position: absolute;
+      top: 220px;
+  }
+  
+  
+  
+  
+  
+  /* section 4 */
+  .svg-links {
+      margin-left: 150px;
+      margin-right: 150px;
+      margin-top:80px;
+      display: flex;
+      justify-content: space-between;
+  }
+  
+  svg:hover {
+      fill : #00b39b;
+  
+  }
+  .lin{
+      margin-top: -9px;
+  
+  }
+  
+  .svg-links h2{
+      width:20%
+  }
+  /* section 5 */
+  .stats{
+      display: flex;
+      justify-content: space-between;
+      background-color: #e5faf8;
+      height: 600px;
+      background-image: url("https://www.docplanner.com/img/logo.png");
+      background-repeat: no-repeat;
+      background-position: 100px 200px;
+      padding-left: 150px;
+      padding-right: 150px;
+  
+  }
+  .desc{
+      width:40%;
+     
+
+  }
+  .bands-boxes{
+      display: flex;
+      flex-wrap: wrap;
+      width:700px;
+  
+  }
+  .box{
+      border-radius: 1cm;
+   margin :60px;
+      background-color: white;
+      width:200px;
+      height: 240px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  .box:nth-of-type(1){
+      margin: 50px;
+  }
+  .box:nth-of-type(4){
+  margin: 13px;    
+  }
+  .box:nth-of-type(3){
+      margin: 18px;    
+      }
+  
+  .box h1{
+      font-size:15px;
+  }
+  .prg{
+      text-align: center;
+      margin-left: 150px;
+      margin-right: 150px;
+      margin-top:80px;
+      
+  
+  }
+  .svg-links{
+      color:#00b39b ;
+  }
+  .prg h1{
+      font-size: 25px;
+  }
+  .cnt{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+  margin-left: 150px;
+   margin-right: 150px;
+  }
+  .footer{
+      font-size: small;
+  }
+  .links{
+      height: 20px;
+      width: auto;
+      max-width: 100%;
+      padding-left: 10px;
+      fill: grey;
+      font-size: 15px;
+  
+  }
+  .imagebrand{
+    color: grey;
+  }
+  
+  .stats h2{
+      color: #00b39b;
+  }
+  .logo-svg
+  {
+      width:200px;
+      height:25px;
+  }
+  .logo-svg:hover{
+      color: green;
+  }
+  .contain{
+      display: flex;
+      justify-content: space-between;
+  }
+  .button{
+  border-radius: 66px;
+  height: 33px;
+  }
+  .deco{
+      text-decoration: none;
+  }
